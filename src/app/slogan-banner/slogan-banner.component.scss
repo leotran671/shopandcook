@@ -1,0 +1,27 @@
+.slogan-banner {
+    background-color: #045E38;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #FDFEDE;
+        margin: 0;
+    }
+
+    .btn-download-app {
+        margin-top: 2rem;
+        background-color: #FDFEDE;
+        color: black;
+        font-size: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+}
