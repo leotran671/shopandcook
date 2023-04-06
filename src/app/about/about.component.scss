@@ -7,8 +7,15 @@
     line-height: 1.6;
     color: #FDFEDE;
     text-align: justify;
+    font-family: "Montserrat";
 }
 
-.img {
-    height: 10rem;
+.presentation-row {
+    display: flex;
+}
+
+.presentation-image {
+    height: 90%;
+    object-fit: cover;
+    margin-left: 5rem;
 }

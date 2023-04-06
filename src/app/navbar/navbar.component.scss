@@ -7,7 +7,8 @@
     .navbar-brand {
         margin-right: 0;
         color: #FDFEDE;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        font-family: "Serif Baru - Dirtyline XBd It";
     }
 
     .navbar-collapse {
@@ -15,12 +16,20 @@
     }
 
     .nav-item {
+        color: #FDFEDE;
         margin-left: 1rem;
         margin-right: 1rem;
         font-size: 1.3rem;
+        font-family: 'Montserrat';
 
         .nav-link {
             color: #ffffff;
         }
     }
+}
+
+
+@font-face {
+    font-family: "Serif Baru - Dirtyline XBd It";
+    src: url("../font/ElanorFreePersonalUse-ExBdIt.otf") format("OpenType");
 }

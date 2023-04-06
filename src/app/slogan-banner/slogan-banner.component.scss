@@ -9,7 +9,8 @@
     padding: 0;
 
     h1 {
-        font-size: 2.5rem;
+        font-family: 'Serif Baru - Dirtyline XBd It', sans-serif;
+        font-size: 4rem;
         font-weight: bold;
         color: #FDFEDE;
         animation: fadeIn 3s ease-in-out;
@@ -17,6 +18,7 @@
     }
 
     .btn-download-app {
+        font-family: 'Montserrat', sans-serif;
         margin-top: 2rem;
         background-color: #FDFEDE;
         color: black;
@@ -35,4 +37,9 @@
     100% {
         opacity: 1;
     }
+}
+
+@font-face {
+    font-family: "Serif Baru - Dirtyline XBd It";
+    src: url("../font/ElanorFreePersonalUse-ExBdIt.otf") format("OpenType");
 }
