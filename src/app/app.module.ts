@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SloganBannerComponent } from './slogan-banner/slogan-banner.component';
 import { DescriptionCardComponent } from './description-card/description-card.component';
 import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
     NavbarComponent,
     SloganBannerComponent,
     DescriptionCardComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
