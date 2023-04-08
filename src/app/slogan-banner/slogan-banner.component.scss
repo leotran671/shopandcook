@@ -29,6 +29,81 @@
     }
 }
 
+/* Écran jusqu'à 768px */
+@media (max-width: 768px) {
+    .slogan-banner {
+        height: auto;
+        padding: 4rem 1rem;
+        text-align: center;
+
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+
+        .btn-download-app {
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            margin-top: 2rem;
+        }
+    }
+}
+
+/* Écran de 768px à 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+    .slogan-banner {
+        padding: 6rem 1rem;
+
+        h1 {
+            font-size: 3rem;
+            line-height: 1.2;
+        }
+
+        .btn-download-app {
+            font-size: 1.3rem;
+            padding: 0.6rem 1.2rem;
+            margin-top: 3rem;
+        }
+    }
+}
+
+/* Écran de 992px à 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slogan-banner {
+        padding: 6rem 1rem;
+
+        h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+        }
+
+        .btn-download-app {
+            font-size: 1.4rem;
+            padding: 0.7rem 1.3rem;
+            margin-top: 3rem;
+        }
+    }
+}
+
+/* Écran de plus de 1200px */
+@media (min-width: 1200px) {
+    .slogan-banner {
+        padding: 8rem 1rem;
+
+        h1 {
+            font-size: 4rem;
+            line-height: 1.2;
+        }
+
+        .btn-download-app {
+            font-size: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            margin-top: 2rem;
+        }
+    }
+}
+
+
 @keyframes fadeIn {
     0% {
         opacity: 0;

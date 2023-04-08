@@ -19,3 +19,46 @@
     object-fit: cover;
     margin-left: 5rem;
 }
+
+/* Pour les écrans de taille inférieure à 768px */
+@media (max-width: 767.98px) {
+    .presentation-container {
+      padding: 0;
+    }
+  
+    .presentation-row {
+      flex-direction: column;
+    }
+  
+    .presentation-image {
+      height: auto;
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  }
+  
+  /* Pour les écrans de taille supérieure à 768px */
+  @media (min-width: 768px) {
+    .presentation-container {
+      padding: 1rem;
+    }
+  
+    .presentation-row {
+      flex-direction: row;
+    }
+  
+    .presentation-image {
+      height: 90%;
+      object-fit: cover;
+      margin-left: 5rem;
+    }
+  }
+  
+  .presentation-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #FDFEDE;
+    text-align: justify;
+    font-family: "Montserrat";
+  }
+  

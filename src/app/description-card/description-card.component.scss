@@ -24,3 +24,34 @@
     flex-direction: column;
     flex: 1;
 }
+
+/* Pour les écrans de grande taille */
+@media (min-width: 992px) {
+    .container {
+      max-width: 90%;
+      margin: auto;
+    }
+  }
+  
+  /* Pour les écrans moyens */
+  @media (max-width: 991px) {
+    .container {
+      max-width: 80%;
+      margin: auto;
+    }
+  }
+  
+  /* Pour les écrans petits */
+  @media (max-width: 767px) {
+    .container {
+      max-width: 100%;
+      margin: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    
+    .card {
+      margin-bottom: 2rem;
+    }
+  }
+  
